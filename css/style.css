@@ -10,11 +10,9 @@ body {
 }
 
 
-/* Navbar csss*/
+/* Navbar css*/
 
 .nav {
-	display: flex;
-	position:fixed;
 	height: 12vh;
 	width: 100%;
 	border-bottom: 2px #ececea solid;
@@ -23,19 +21,176 @@ body {
 	background-color: white;
 }
 
+.nav_in {
+	margin:0 auto;
+}
+
+.navtext_thispage {
+	width: 60px;
+	height: 39px;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 38px;
+	border-radius: 50px;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	background-color: #C3D7EB;
+}
+
 .navtext {
-	width: fit-content;
-	margin-left: 50px;
-	font-size: 18px;
-	font-weight: bold;
-	color: #4D4D4D;
+	width: 60px;
+	height: 39px;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 38px;
+	color: #333333;
+	padding: 5px 20px 5px 20px;
+	border-radius: 50px;
 }
 
 .navtext:hover {
-	color:#648192 ;
+	background-color:#14608B;
 	text-decoration: none;
+	color:white;
 }
 
+.name {
+	font-family: Optima;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	align-items: center;
+	color: #333333;
+	width: 100%;
+	z-index: 1;
+	background-color: white;
+	margin:60px;
+}
+
+.name:hover {
+	text-decoration: none;
+	color:#333333;
+}
+
+.gradient_block {
+	width:100%;
+	height:400px;
+	background: -webkit-linear-gradient(left,#6FA5DB	,#D6CAE5);
+	background: -o-linear-gradient(right,#6FA5DB,#D6CAE5);
+	background: -moz-linear-gradient(right,#6FA5DB,#D6CAE5);
+	background: linear-gradient(to right,#6FA5DB,#D6CAE5);
+	display: flex;
+	align-items: center;
+}
+
+.titleblock {
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.titletext {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 104px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+	margin: 30 30 30 30;
+}
+
+.bigtext {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 41px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	margin:10px;
+}
+
+.project {
+	width:90%;
+	display: flex;
+	height: 700px;
+}
+
+.project_left {
+	width:60%; 
+	display: flex;
+	padding:30px;
+	position: relative;
+}
+
+.project_img {
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.link_img:hover {
+	opacity: 50%;
+}
+
+.project_right {
+	width:40%;
+	display: flex;
+	align-items: center;
+}
+
+.project_text {
+	width:80%;
+	margin:0 auto;
+}
+
+.project_year {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	color: #333333;
+	margin-bottom: 30px;
+}
+
+.project_title {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+.project_description {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	margin:30px 0px 30px 0px;
+}
 
 /* Footer css*/
 footer {
@@ -78,41 +233,21 @@ footer {
 /* wrapper & content css content的大小我是隨便設的*/
 .wrapper {
 	margin-bottom: -15vh;
-	margin-top: 15vh;
 }
 .content{
 	padding-bottom: 15vh;
-	margin-top: 15vh;
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 }
 
 /* work內容 */
-.titletext {
-	font-size: 24px;
-	font-family: 'Noto Sans TC', sans-serif;
-	color: #4D4D4D;
-	margin-bottom: 5px;
-	display: flex;
-}
 
-#bigtext {
-	font-family: 'Noto Sans TC', sans-serif;
-	font-weight: bold;
-	color: #4D4D4D;
-	font-size: 36px;
-	margin-bottom: 20px;
-}
 
 @media (max-width: 670px){
 	.titletext {
-		font-size: 20px;
-	}
-	#bigtext {
-		font-size: 28px;
+		font-size: 50px;
 	}
 }
 
@@ -153,17 +288,17 @@ footer {
 .pbtn {
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size: 16px;
-	border: 1px #4D4D4D solid;
-	border-radius: 8px;
+	border: 1px #14608B solid;
+	border-radius: 50px;
 	padding: 5px 10px 5px 10px;
-	color: #4D4D4D;
+	color: #14608B;
 }
 
 .pbtn:hover {
 	color: white;
 	text-decoration: none;
-	background-color: #AAAAAA;
-	border-color: #AAAAAA;
+	background-color: #14608B#14608B;
+	border-color: #14608B;
 }
 
 /* about內容 */
@@ -201,9 +336,9 @@ footer {
 }
 
 #aboutbtn {
-	border: 1px #648192 solid;
+	border: 1px #14608B solid;
 	padding: 5px 10px 5px 15px;
-	color: #648192;
+	color: #14608B;
 	letter-spacing: 5px;
 	margin-bottom: 50px;
 }
@@ -211,8 +346,19 @@ footer {
 #aboutbtn:hover {
 	color: white;
 	text-decoration: none;
-	background-color: #648192;
-	border-color: #648192;
+	background-color: #14608B;
+	border-color: #14608B;
+}
+
+.unablebtn {
+	font-family: 'Noto Sans TC', sans-serif;
+	border: 1px gray solid;
+	border-radius: 50px;
+	padding: 5px 10px 5px 15px;
+	color: gray;
+	letter-spacing: 5px;
+	margin-bottom: 50px;
+	font-size: 16px;
 }
 
 /* 作品集內容 */

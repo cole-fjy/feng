@@ -1,0 +1,473 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	background-color: #fff;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Navbar css*/
+
+.nav {
+	height: 12vh;
+	width: 100%;
+	border-bottom: 2px #ececea solid;
+	align-items: center;
+	z-index: 1;
+	background-color: white;
+}
+
+.nav_in {
+	margin:0 auto;
+}
+
+.navtext {
+	width: 60px;
+	height: 39px;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 38px;
+	color: #333333;
+	padding: 5px 20px 5px 20px;
+	border-radius: 50px;
+}
+
+.navtext:hover {
+	background-color:#14608B;
+	color:white;
+	text-decoration: none;
+}
+
+.navtext_thispage {
+	width: 60px;
+	height: 39px;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 38px;
+	border-radius: 50px;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	background-color: #C3D7EB;
+}
+
+.navtext_thispage:hover {
+	background-color:#14608B;
+	color:white;
+	text-decoration: none;
+}
+
+
+.name {
+	font-family: Optima;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	align-items: center;
+	color: #333333;
+	width: 100%;
+	z-index: 1;
+	background-color: white;
+	margin:60px;
+}
+
+.name:hover {
+	text-decoration: none;
+	color:#333333;
+}
+
+.hashtag {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    border: 1px #448089 solid;
+    background-color: #448089;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    align-items: center;
+}
+
+.hashtag-div {
+    align-items: center;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.block {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.title-top {
+    margin:30px 0px 10px 0px;
+}
+
+.project-img {
+	width:100%;
+	margin-bottom: 30px;
+}
+
+/* Footer css*/
+footer {
+	height: 15vh;
+	border-top: 2px #ececea solid;
+	position: relative;
+	margin-top: 100px;
+}
+
+.footer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position:absolute;
+    justify-content: center; 
+    align-items: center;
+    bottom: 0;
+}
+
+.footertext {
+	font-family: Montserrat, sans-serif;
+	font-weight: lighter;
+	font-size: 16px;
+	color: gray;
+	position:relative;
+	height: fit-content;
+	width: auto;
+}
+
+.footerimg img {
+	height: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.fb {
+	margin-right: 15px;
+}
+
+/* wrapper & content css content的大小我是隨便設的*/
+.wrapper {
+	margin-bottom: -15vh;
+}
+.content{
+	padding-bottom: 15vh;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Context-cn {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	align-items: center;
+	color: #000000;
+}
+
+.project-context-title-cn {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 35px;
+    color: #333333;
+    margin:100px 0px 20px 0px;
+}
+
+.project-context-subtitle-cn {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 46px;
+    color: #333333;
+    margin:30px 0px 20px 0px;
+}
+
+.About-subtitle-cn {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+	text-align: right;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.project-title-cn {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.project-subtitle-cn {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+
+.project-title {
+    width:70%;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.project-title-2 {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+/* work內容 */
+
+
+@media (max-width: 670px){
+	.titletext {
+		font-size: 50px;
+	}
+}
+
+.p1, .p2, .p3 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.p1 img, .p2 img, .p3 img {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.p1 img:hover, .p2 img:hover, .p3 img:hover, #link:hover {
+	opacity: 0.5;
+}
+
+.ptitle {
+	font-family: Montserrat, sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.ptext {
+	width: 80%;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #4D4D4D;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+
+.aboutbtn {
+	border: 1px #14608B solid;
+	border-radius: 50px;
+	padding: 5px 10px 5px 15px;
+	color: #14608B;
+	letter-spacing: 5px;
+	margin-bottom: 50px;
+	font-size: 16px;
+}
+
+.aboutbtn:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #14608B;
+	border-color: #14608B;
+}
+
+.aboutimg:hover {
+	opacity: 50%;
+}
+
+.nextbtn {
+	border: 1px #14608B solid;
+	border-radius: 50px;
+	padding: 10px 20px 10px 25px;
+	color: #14608B;
+	letter-spacing: 5px;
+	margin-bottom: 50px;
+	font-size: 16px;
+}
+
+.nextbtn:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #14608B;
+	border-color: #14608B;
+}
+
+
+
+.abouttext {
+	width: 80%;
+	font-family: 'Noto Sans TC', sans-serif;
+	line-height: 2;
+	font-size: 16px;
+}
+
+.xx {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.xx img {
+	width: 50%;
+	margin-bottom: 50px;
+}
+
+#aboutbtn {
+	border: 1px #14608B solid;
+	padding: 5px 10px 5px 15px;
+	color: #14608B;
+	letter-spacing: 5px;
+	margin-bottom: 50px;
+}
+
+#aboutbtn:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #14608B;
+	border-color: #14608B;
+}
+
+/* 作品集內容 */
+
+.probanner {
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+}
+
+.protitlediv {
+	width: 50%;
+	height: fit-content;
+	margin-top: 10%;
+}
+
+.probannerimg {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	overflow: hidden;
+	height: fit-content;
+}
+
+.probannerimg img {
+	width: 120%;
+}
+
+.protilte {
+	font-family: 'PT Serif', serif;
+    color: #5c5c5c;
+	font-size: 48px;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+.protitleintro {
+	font-family: 'PT Serif', serif;
+    color: #5c5c5c;
+	font-size: 24px;
+	margin-left: 20%;
+	padding-right: 7%;
+}
+
+.container_photo {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+.procontent {
+	padding:10px 20px 10px 20px;
+}
+
+
+.contentimg, .contentgif, .recordimg, .coverimg {
+	text-align: center;
+	margin-bottom: 50px;
+} 
+
+.contentimg img, .recordimg img{
+	width: 70%;
+}
+
+.contentgif img {
+	width: 30%;
+}
+
+.coverimg img {
+	width: 30%;
+}
+
+.wbtn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-family: 'Noto Sans TC', sans-serif;
+	color:#4D4D4D;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-left: 15%;
+}
+
+.text {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 16px;
+	color:#4D4D4D;
+	line-height: 1.8;
+	margin-bottom: 30px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.subtitle {
+	font-family: 'Noto Sans TC', sans-serif;
+	color:#4D4D4D;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-left: 15%;
+}
