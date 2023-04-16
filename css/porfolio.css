@@ -86,11 +86,11 @@ body {
 
 .hashtag {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     border: 1px #448089 solid;
     background-color: #448089;
     border-radius: 50px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 15px 5px 15px;
     color: white;
     margin: 0 10px 0 10px;
     display: inline-block;
@@ -183,7 +183,7 @@ footer {
     font-family: 'Noto Sans TC';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 35px;
     color: #333333;
     margin:100px 0px 20px 0px;
@@ -192,8 +192,8 @@ footer {
 .project-context-subtitle-cn {
     font-family: 'Noto Sans TC';
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 700;
+    font-size: 20px;
     line-height: 46px;
     color: #333333;
     margin:30px 0px 20px 0px;
@@ -216,20 +216,21 @@ footer {
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 46px;
     line-height: 85px;
     display: flex;
     align-items: center;
     color: #333333;
     display: inline-block;
     vertical-align: middle;
+	padding-right: 20px;
 }
 
 .project-subtitle-cn {
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 42px;
     display: flex;
     align-items: center;
